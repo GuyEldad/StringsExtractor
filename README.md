@@ -4,21 +4,24 @@
 
 # StringsExtractor
 
-**StringsExtractor** is a tool for parsing `strings` output files and extracting and categorizing strings to quickly reveal suspicious patterns and indicators.  
-It is designed for malware analysis, reverse engineering, and large-scale string inspection, allowing analysts to navigate massive output files without losing any lines — including blanks — while quickly identifying relevant data.  
+**StringsExtractor** is a tool for parsing `Strings` output files and extracting and categorizing data to quickly reveal suspicious patterns and indicators.  
+It is designed to help analysts investigate strings output efficiently, without having to run regex searches manually, and to navigate massive files while quickly identifying relevant information..  
 
 ## Features
-- Parses very large `strings` output files without losing blank or whitespace-only lines.
-- Categorizes extracted strings into:
+- Parses `Strings` output files and categorizes extracted data into:
   - IP addresses
   - URLs
   - File paths
-  - Registry keys
   - API calls
+  - Emails
+  - Registry keys
   - Command lines
+- Displays all results in an **All** tab, preserving every line from the original file.
+- Ignores blank and whitespace-only lines to keep results clean and relevant.
 - Real-time search and filtering with regex and case sensitivity options.
 - Exports results to **CSV** or **JSON** for documentation and further analysis.
-- Dark-themed modern GUI built with **customtkinter**.
+- Statistics panel showing the total number of lines and counts for each category.
+- User-friendly interface designed for quick and easy navigation.
 
 ## Download
 
