@@ -30,7 +30,7 @@ It is designed to help analysts investigate strings output efficiently, without 
 | Windows  | GUI       | [StringsExtractor.zip](./StringsExtractor.zip) |
 
 ## Usage
-- Use the file picker or drag-and-drop a `.txt` file generated from the `Strings` command into the application.  
+- Use the open file option or drag and drop a `.txt` file generated from the `Strings` command into the application.
 - Switch between tabs to view categorized results.  
 - Use the search bar to filter results by keyword.
 
